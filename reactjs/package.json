@@ -10,8 +10,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "test:all": "set CI=true && react-scripts test && npm run lint:fix",
+    "test": "set CI=true && react-scripts test",
+    "test:coverage": "set CI=true && react-scripts test --coverage",
+    "test:all": "npm run test && npm run lint:fix",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js",
     "lint:fix": "eslint --fix src/**/*.js"
