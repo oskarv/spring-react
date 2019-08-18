@@ -11,6 +11,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "set CI=true && react-scripts test",
+    "test:watch": "react-scripts test",
     "test:coverage": "set CI=true && react-scripts test --coverage",
     "test:all": "npm run test && npm run lint:fix",
     "eject": "react-scripts eject",
